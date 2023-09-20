@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>ArchSoft.ValueObjects</PackageId>
+        <Version>1.0.3</Version>
+        <Authors>Ricardo de Luna Galdino</Authors>
+        <Company>ArchSoft</Company>
+        <Copyright>© 2023 ArchSoft</Copyright>
+        <Description>Library with a compilation of Value Objects.</Description>
+        <PackageProjectUrl>http://www.archsoft.com.br</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/archsoft-br/pkg_value-objects_dotnet</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Objects Entities Models</PackageTags>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="LICENSE" Pack="true" PackagePath=""/>
+        <None Include="README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+</Project>
